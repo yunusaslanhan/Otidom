@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Otidom</string>
+    <string name="aileanasayfa">AileAnasayfa</string>
+    <string name="ocukbilgileri">ÇocukBilgileri</string>
+    <string name="cocukbilgileri">ÇOCUK BİLGİLERİ</string>
+    <string name="ad">Adı</string>
+    <string name="soyad">Soyadı</string>
+    <string name="dogum_tarihi">Doğum Tarihi :</string>
+    <string name="tarih_sec">Tarih Seç</string>
+    <string name="cinsiyet">Cinsiyet :</string>
+    <string name="erkek">Erkek</string>
+    <string name="kiz">Kız</string>
+    <string name="rahatsizlik">Rahatsızlık :</string>
+    <string name="otizm">Otizm</string>
+    <string name="down">Down</string>
+    <string name="butonkaydet">KAYDET</string>
+</resources>

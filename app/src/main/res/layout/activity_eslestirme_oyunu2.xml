@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/view_root2"
+    android:background="@android:color/holo_orange_light"
+    tools:context="com.example.yunus.otidom.EslestirmeOyunu2">
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_x="148dp"
+        android:layout_y="386dp"
+        android:src="@drawable/armut" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="310dp"
+        android:layout_y="132dp"
+        android:text="a"
+        />
+
+    <ImageView
+        android:id="@+id/imageKiraz"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_x="263dp"
+        android:layout_y="90dp"
+        android:src="@drawable/kiraz" />
+
+    <ImageView
+        android:id="@+id/imageArmut"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_x="134dp"
+        android:layout_y="92dp"
+        android:src="@drawable/armut" />
+
+    <ImageView
+        android:id="@+id/imageCilek"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_x="22dp"
+        android:layout_y="102dp"
+        android:src="@drawable/cilek" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="115dp"
+        android:layout_y="26dp"
+        android:text="Armutu Eşle"
+        android:textSize="30sp" />
+
+</AbsoluteLayout>

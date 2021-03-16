@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:background="@android:color/holo_blue_bright"
+    tools:context="com.example.yunus.otidom.AdimSayarUygulama10">
+
+
+    <TextView android:textColor="@android:color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Atılan Adım"
+        android:layout_marginBottom="20dp"
+        />
+
+    <TextView
+        android:id="@+id/count"
+        android:textSize="36sp"
+        android:textColor="@android:color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        />
+
+
+    <Button
+        android:id="@+id/btnBitir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Görevi Bitir"
+        />
+
+
+</LinearLayout>

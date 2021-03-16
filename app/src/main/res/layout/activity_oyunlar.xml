@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:background="@drawable/arkaplan"
+    tools:context="com.example.yunus.otidom.OyunlarActivity">
+
+
+    <Button
+        android:id="@+id/btnGorev"
+        android:layout_width="204dp"
+        android:layout_height="wrap_content"
+        android:text="Görev Oyunu" />
+
+    <Button
+        android:id="@+id/btnEslestirme"
+        android:layout_width="205dp"
+        android:layout_height="wrap_content"
+        android:text="Eşleştirme Oyunu" />
+
+    <Button
+        android:id="@+id/btnRenkOgren"
+        android:layout_width="207dp"
+        android:layout_height="wrap_content"
+        android:text="Renkleri Ögren" />
+
+    <Button
+        android:id="@+id/btnSayiSiralama"
+        android:layout_width="207dp"
+        android:layout_height="wrap_content"
+        android:text="Sayı Sıralama Oyunu" />
+
+    <Button
+        android:id="@+id/btnHayvanSesleri"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hayvan Sesleri Öğrenme"/>
+
+    <Button
+        android:id="@+id/btnIletisimOyunu"
+        android:layout_width="211dp"
+        android:layout_height="wrap_content"
+        android:text="İletişim Oyunu" />
+
+
+
+
+</LinearLayout>

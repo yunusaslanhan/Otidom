@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.yunus.otidom">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".DoktorGiris" />
+        <activity android:name=".AileGiris" />
+        <activity android:name=".DoktorAnasayfa" />
+        <activity android:name=".CocukBilgileri" />
+        <activity android:name=".AdimSayarUygulama" />
+        <activity android:name=".AdimSayarUygulama2" />
+        <activity android:name=".AdimSayarUygulama3" />
+        <activity android:name=".AdimSayarUygulama4" />
+        <activity android:name=".AdimSayarUygulama5" />
+        <activity android:name=".AdimSayarUygulama6" />
+        <activity android:name=".AdimSayarUygulama7" />
+        <activity android:name=".AdimSayarUygulama8" />
+        <activity android:name=".AdimSayarUygulama9" />
+        <activity android:name=".AdimSayarUygulama10" />
+        <activity android:name=".AdimSayarUygulamaSon" />
+        <activity android:name=".AileAnasayfa" />
+        <activity android:name=".OyunlarActivity" />
+        <activity android:name=".AileProfil" />
+        <activity android:name=".EslestirmeOyunu" />
+        <activity android:name=".RenkOgrenOyunu" />
+        <activity android:name=".RenkOgrenLevel2" />
+        <activity android:name=".RenkOgrenLevel3" />
+        <activity android:name=".RenkOgrenLevel4" />
+        <activity android:name=".RenkOgrenLevel5" />
+        <activity android:name=".RenkOgrenLevelSon" />
+        <activity android:name=".SayiSiralamaOyunu" />
+        <activity android:name=".SayiSiralamaOyunuLevel2" />
+        <activity android:name=".SayiSiralamaOyunuLevel3" />
+        <activity android:name=".SayiSiralamaOyunuLevel4" />
+        <activity android:name=".SayiSiralamaOyunuLevel5" />
+        <activity android:name=".SayiSiralamaOyunuSon" />
+        <activity android:name=".EslestirmeOyunu3" />
+        <activity android:name=".EslestirmeOyunu2" />
+        <activity android:name=".EslestirmeOyunu4" />
+        <activity android:name=".EslestirmeOyunu5" />
+        <activity android:name=".EslestirmeOyunuSon" />
+        <activity android:name=".HayvanSesleriOyunu" />
+        <activity android:name=".HayvanSesleriOyunu2" />
+        <activity android:name=".HayvanSesleriOyunu3" />
+        <activity android:name=".HayvanSesleriOyunu4" />
+        <activity android:name=".HayvanSesleriOyunu5" />
+        <activity android:name=".HayvanSesleriOyunuSon" />
+        <activity android:name=".IletisimOyunu" />
+        <activity android:name=".IletisimOyunu2" />
+        <activity android:name=".IletisimOyunu3" />
+        <activity android:name=".Video2" />
+        <activity android:name=".Video1" />
+        <activity android:name=".IletisimOyunu4" />
+        <activity android:name=".IletisimOyunu5" />
+        <activity android:name=".Video3" />
+        <activity android:name=".IletisimOyunu6" />
+        <activity android:name=".IletisimOyunu7"></activity>
+    </application>
+
+</manifest>

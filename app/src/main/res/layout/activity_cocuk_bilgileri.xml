@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.example.yunus.otidom.CocukBilgileri">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cocukbilgileri"
+        android:textStyle="bold"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textSize="25sp"
+        />
+
+
+    <EditText
+        android:id="@+id/txtAd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:ems="10"
+        android:hint="@string/ad"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/txtSoyad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:ems="15"
+        android:hint="@string/soyad"
+        android:inputType="text"/>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="12dp"
+        android:layout_gravity="start">
+
+        <TextView
+            android:id="@+id/textView"
+            android:textSize="18sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dogum_tarihi"
+            />
+
+        <TextView
+            android:id="@+id/txtTarih"
+            android:textSize="17sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:layout_marginLeft="20dp"
+            android:id="@+id/btnTarihSec"
+            android:text="@string/tarih_sec"
+            android:layout_width="110dp"
+            android:layout_height="38dp"
+            android:textAllCaps="false"
+            android:layout_marginStart="20dp" />
+
+    </LinearLayout>
+
+
+<RadioGroup
+    android:id="@+id/rgCinsiyet"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_gravity="start"
+    android:layout_marginBottom="12dp"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:text="@string/cinsiyet"
+        />
+
+            <RadioButton
+                android:id="@+id/rdErkek"
+                android:text="@string/erkek"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <RadioButton
+                android:id="@+id/rdKız"
+                android:text="@string/kiz"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+</RadioGroup>
+
+
+    <RadioGroup
+        android:id="@+id/rgRahatsızlık"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="start"
+        android:layout_marginBottom="12dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="@string/rahatsizlik"
+            />
+
+        <RadioButton
+            android:id="@+id/rdOtizm"
+            android:text="@string/otizm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:id="@+id/rdDown"
+            android:text="@string/down"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </RadioGroup>
+
+
+        <Button
+            android:id="@+id/btnCocukKaydet"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/butonkaydet"
+            />
+
+
+</LinearLayout>

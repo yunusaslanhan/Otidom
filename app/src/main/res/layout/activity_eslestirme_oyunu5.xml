@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/view_root5"
+    android:background="@android:color/holo_orange_light"
+    tools:context="com.example.yunus.otidom.EslestirmeOyunu5">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_x="148dp"
+        android:layout_y="386dp"
+        android:src="@drawable/muz" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="310dp"
+        android:layout_y="132dp"
+        android:text="a"
+        />
+
+    <ImageView
+        android:id="@+id/imageMuz"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_x="263dp"
+        android:layout_y="90dp"
+        android:src="@drawable/muz" />
+
+    <ImageView
+        android:id="@+id/imageCilek"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_x="134dp"
+        android:layout_y="92dp"
+        android:src="@drawable/cilek" />
+
+    <ImageView
+        android:id="@+id/imageUzum"
+        android:layout_width="92dp"
+        android:layout_height="95dp"
+        android:layout_x="20dp"
+        android:layout_y="98dp"
+        android:src="@drawable/uzum" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="115dp"
+        android:layout_y="26dp"
+        android:text="Muzu Eşle"
+        android:textSize="30sp" />
+
+
+
+</AbsoluteLayout>

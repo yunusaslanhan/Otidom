@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "475983046757",
+    "firebase_url": "https://otidom-4bf08.firebaseio.com",
+    "project_id": "otidom-4bf08",
+    "storage_bucket": "otidom-4bf08.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:475983046757:android:373ecdfe0a84fbf1",
+        "android_client_info": {
+          "package_name": "com.example.yunus.otidom"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "475983046757-r72oslmiqgi7g5uvg7n6c9kep27urues.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.yunus.otidom",
+            "certificate_hash": "f18100f754e608059efa663b63912db635651746"
+          }
+        },
+        {
+          "client_id": "475983046757-hpe9mbqgc98lo3eas7clgdkh82tnab64.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB0W7MzNGDLVgc7eqalnDGNHar7U_k2vxQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "475983046757-hpe9mbqgc98lo3eas7clgdkh82tnab64.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

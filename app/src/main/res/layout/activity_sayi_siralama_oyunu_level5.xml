@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical|center_horizontal"
+    android:background="@android:color/holo_orange_light"
+    android:orientation="vertical"
+    tools:context="com.example.yunus.otidom.SayiSiralamaOyunuLevel5">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="125dp"
+        android:orientation="horizontal"
+        android:layout_marginBottom="50dp">
+
+        <TextView
+            android:id="@+id/txt1"
+            android:layout_width="95dp"
+            android:layout_height="121dp"
+
+            android:background="#FF0"
+
+            android:text="3"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="100sp" />
+
+        <TextView
+            android:id="@+id/txt2"
+            android:layout_width="95dp"
+            android:layout_height="121dp"
+            android:layout_marginBottom="50dp"
+            android:background="#FF0"
+
+            android:text="4"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="100sp" />
+
+        <TextView
+            android:id="@+id/txt3"
+            android:layout_width="95dp"
+            android:layout_height="121dp"
+            android:layout_marginBottom="50dp"
+            android:background="#FF0"
+            android:text="?"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="100sp" />
+
+        <TextView
+            android:id="@+id/txt4"
+            android:layout_width="95dp"
+            android:layout_height="121dp"
+            android:layout_marginBottom="50dp"
+            android:background="#FF0"
+            android:text="6"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="100sp" />
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SIRADAKİ SAYIYI GÖSTER"
+        android:layout_marginBottom="70dp"
+        android:textSize="20sp"
+        android:textColor="@android:color/white"/>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btn1"
+
+            android:text="9"
+            android:layout_width="95dp"
+            android:layout_height="110dp"
+            android:textColor="@android:color/white"
+            android:background="@android:color/holo_blue_light"
+            android:textSize="80sp"/>
+
+        <Button
+            android:id="@+id/btn2"
+
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_width="95dp"
+            android:layout_height="110dp"
+            android:textColor="@android:color/white"
+            android:background="@android:color/holo_blue_light"
+
+            android:text="5"
+            android:textSize="80sp"/>
+
+        <Button
+            android:id="@+id/btn3"
+
+            android:text="7"
+            android:layout_width="95dp"
+            android:layout_height="110dp"
+            android:textColor="@android:color/white"
+            android:background="@android:color/holo_blue_light"
+            android:textSize="80sp"
+            />
+    </LinearLayout>
+
+</LinearLayout>
